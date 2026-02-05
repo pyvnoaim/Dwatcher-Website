@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dwatcher - Network Monitoring by Datadiorama</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;800&family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grid-bg"></div>
+    <div class="glow-orb"></div>
+
+    <div class="container">
+      <header>
+        <div style="display: flex; align-items: center">
+          <div class="logo">
+            <div class="logo-dot"></div>
+            dwatcher
+          </div>
+          <span class="company-name">by Datadiorama</span>
+        </div>
+        <nav>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-badge">Network Monitoring Appliance</div>
+          <h1>Monitor.<br />Detect.<br />Protect.</h1>
+          <p class="hero-subtitle">
+            Plug-and-play network monitor. Integrates with UniFi, SNMP devices
+            and more for comprehensive infrastructure visibility.
+          </p>
+          <div class="cta-group">
+            <a href="#" class="btn btn-primary">Start Free Trial</a>
+            <a href="#" class="btn btn-secondary">View Demo</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="product-image">
+            <div class="product-badge">Dwatcher</div>
+            <div class="product-placeholder">
+              <img
+                src="dwatcher.png"
+                alt="Dwatcher Device"
+                style="width: 100%; height: 100%; object-fit: contain"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="stats">
+        <div class="stat-item">
+          <div class="stat-number">5min</div>
+          <div class="stat-label">Setup Time</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">3</div>
+          <div class="stat-label">API Integrations</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">1000+</div>
+          <div class="stat-label">Devices Supported</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Active Monitoring</div>
+        </div>
+      </div>
+
+      <div class="terminal-viz">
+        <div class="terminal-header">
+          <div class="terminal-dot"></div>
+          <div class="terminal-dot"></div>
+          <div class="terminal-dot"></div>
+        </div>
+        <div class="terminal-line">
+          <span class="terminal-prompt">$</span>
+          <span class="terminal-text">dwatcher status</span>
+        </div>
+        <div class="terminal-line">
+          <span class="terminal-text">UniFi Controller</span>
+          <span class="terminal-value terminal-success">CONNECTED</span>
+        </div>
+        <div class="terminal-line">
+          <span class="terminal-text">├─ Access Points</span>
+          <span class="terminal-value">12 online</span>
+        </div>
+        <div class="terminal-line">
+          <span class="terminal-text">├─ Switches</span>
+          <span class="terminal-value">4 online</span>
+        </div>
+        <div class="terminal-line">
+          <span class="terminal-text">└─ Clients</span>
+          <span class="terminal-value">87 connected</span>
+        </div>
+        <div class="terminal-line">
+          <span class="terminal-text">SNMP Devices</span>
+          <span class="terminal-value terminal-success">8/8 responding</span>
+        </div>
+        <div class="terminal-line">
+          <span class="terminal-text">Tactical RMM</span>
+          <span class="terminal-value terminal-success">SYNCED</span>
+        </div>
+        <div class="terminal-line">
+          <span class="terminal-text">└─ Agents monitored</span>
+          <span class="terminal-value">42</span>
+        </div>
+      </div>
+
+      <section class="features" id="features">
+        <div class="section-header">
+          <div class="section-label">Capabilities</div>
+          <h2>Built for Modern Infrastructure</h2>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">◈</div>
+            <h3>UniFi Integration</h3>
+            <p class="feature-description">
+              Native UniFi Controller API integration. Monitor access points,
+              switches, gateways, and client connections. Real-time alerts for
+              device status changes and network anomalies.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">⬢</div>
+            <h3>SNMP Monitoring</h3>
+            <p class="feature-description">
+              Universal SNMP v3 support for Synology NAS, routers, firewalls, and
+              servers. Track bandwidth, CPU, memory, temperature, and custom
+              OIDs across your entire infrastructure.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">◆</div>
+            <h3>Tactical RMM Sync</h3>
+            <p class="feature-description">
+              Seamless integration with Tactical RMM for unified monitoring.
+              Correlate network status with endpoint health, automate responses,
+              and centralize your IT operations.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">◇</div>
+            <h3>Plug & Play Setup</h3>
+            <p class="feature-description">
+              Pre-configured Raspberry Pi device ready to deploy. Connect to
+              your network, enter your API credentials through the web
+              interface, and start monitoring in minutes.
+            </p>
+          </div>
+      </section>
+
+      <section class="pricing" id="pricing">
+        <div class="section-header">
+          <div class="section-label">Preise</div>
+          <h2>Ein einfacher Preis</h2>
+        </div>
+
+        <div class="pricing-grid" style="max-width: 500px; margin: 4rem auto 0">
+          <div class="pricing-card featured">
+            <div class="pricing-tier">Dwatcher</div>
+            <div class="pricing-amount">€125</div>
+            <div class="pricing-period">pro Monat</div>
+            <ul class="pricing-features">
+              <li>Dwatcher device (Raspberry Pi 5)</li>
+              <li>Custom case & power supply</li>
+              <li>UniFi Controller integration</li>
+              <li>SNMP monitoring (v3)</li>
+              <li>Tactical RMM integration</li>
+              <li>Advanced alerting & webhooks</li>
+              <li>Priority support (24/7)</li>
+              <li>All updates included</li>
+            </ul>
+            <a
+              href="#"
+              class="btn btn-primary"
+              style="width: 100%; display: block; text-align: center"
+              >Jetzt bestellen</a
+            >
+            <p
+              style="
+                margin-top: 1.5rem;
+                font-size: 0.75rem;
+                color: var(--text-tertiary);
+                text-align: center;
+                line-height: 1.6;
+              "
+            >
+              Mindestvertragslaufzeit: 6 Monate<br />
+              Danach monatlich kündbar
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+        <p>&copy; 2026 DataDiorama. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
